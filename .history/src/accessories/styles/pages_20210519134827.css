@@ -1,0 +1,71 @@
+.main-container {
+  background-image: url("../img/bgi.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  height: 940px;
+  width: 100vw;
+}
+
+.primary-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0, auto;
+  text-align: center;
+  background-color: #f4f9ff;
+}
+
+.secondary-article {
+  color: #123b53;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#me {
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
+  grid-template-rows: 50px 100px 1fr;
+  grid-template-columns: 40vw 1fr;
+}
+body > * {
+  margin: 3px;
+  padding: 10px;
+}
+
+.main-skill {
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f9ff;
+}
+
+.skill-box{
+  width: 80vh;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+  padding:16px;
+}
+
+
+.icon {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.footer {
+  color: #809eae;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  height: 3vh;
+}
+
