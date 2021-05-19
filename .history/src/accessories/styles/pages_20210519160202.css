@@ -22,14 +22,12 @@
   letter-spacing: 2px;
 }
 
-.me {
+#me {
   display: grid;
   margin: 0;
   min-height: 100vh;
-  grid-template-rows: 50px  1fr;
+  grid-template-rows: 50px 100px 1fr;
   grid-template-columns: 40vw 1fr;
-  background-color: #bfcfe6;
-  opacity: 0.6;
 }
 body > * {
   margin: 3px;
@@ -40,11 +38,9 @@ body > * {
   background-color: pink;
 }
 
-
-.about-me {
-  background-color: purple;
+.About-me {
+  background-color: skyblue;
 }
-
 
 
 .main-skill {

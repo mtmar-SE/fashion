@@ -5,11 +5,11 @@ const AboutMe = () => {
   return (
     <>
       <div className="me">
-        <h1>AboutMe</h1>
         <div className="picture-me">
           <div>写真を載せるところです</div>
         </div>
         <div className="about-me">
+          <h1>AboutMe</h1>
           <h2 className="secondary-article">Name</h2>
           <p className="secondary-article">motoki hirasawa/平沢 基</p>
           <h2 className="secondary-article">Story</h2>

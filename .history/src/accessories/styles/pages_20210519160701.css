@@ -22,14 +22,12 @@
   letter-spacing: 2px;
 }
 
-.me {
+#me {
   display: grid;
   margin: 0;
   min-height: 100vh;
-  grid-template-rows: 50px  1fr;
+  grid-template-rows: 50px 100px 1fr;
   grid-template-columns: 40vw 1fr;
-  background-color: #bfcfe6;
-  opacity: 0.6;
 }
 body > * {
   margin: 3px;
@@ -42,9 +40,13 @@ body > * {
 
 
 .about-me {
-  background-color: purple;
+  background-color: skyblue;
 }
-
+h1 {
+  color: aquamarine;
+  grid-row:  1/ 2;
+  grid-column: 1/2;
+}
 
 
 .main-skill {

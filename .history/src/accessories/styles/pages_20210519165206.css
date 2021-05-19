@@ -26,7 +26,7 @@
   display: grid;
   margin: 0;
   min-height: 100vh;
-  grid-template-rows: 50px  1fr;
+  grid-template-rows: 50px 100px 1fr;
   grid-template-columns: 40vw 1fr;
   background-color: #bfcfe6;
   opacity: 0.6;
@@ -38,11 +38,13 @@ body > * {
 
 .picture-me {
   background-color: pink;
+  grid-row:1/4;
 }
 
 
 .about-me {
-  background-color: purple;
+  background-color: skyblue;
+  padding:10px;
 }
 
 

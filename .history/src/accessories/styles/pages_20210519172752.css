@@ -38,11 +38,11 @@ body > * {
 
 .picture-me {
   background-color: pink;
+  grid-row:1/4;
 }
 
 
 .about-me {
-  background-color: purple;
 }
 
 

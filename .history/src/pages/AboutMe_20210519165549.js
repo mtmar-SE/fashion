@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <>
       <div className="me">
-        <h1>AboutMe</h1>
+        <h1 style={color: pink}>AboutMe</h1>
         <div className="picture-me">
           <div>写真を載せるところです</div>
         </div>
