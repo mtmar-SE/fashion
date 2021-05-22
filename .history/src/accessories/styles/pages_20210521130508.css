@@ -66,7 +66,11 @@
   background-color: #f4f9ff;
 }
 
-
+.skill-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 .icon {

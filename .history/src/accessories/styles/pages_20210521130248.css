@@ -60,13 +60,16 @@
   height: 100vh;
   width: 100vw;
   display:flex;
-  justify-content: space-between;
+  justify-content: flex;
   align-items: center;
   flex-direction: column;
   background-color: #f4f9ff;
 }
 
-
+.skill-box{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .icon {
