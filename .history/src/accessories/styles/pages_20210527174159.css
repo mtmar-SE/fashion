@@ -1,0 +1,137 @@
+/*////   共通   ////*/
+
+body {
+  color: #809eae;
+  font-size: 16px;
+}
+
+.inner-box {
+  width: 75%;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+
+/*////   header   ////*/
+
+.main-container {
+  background-image: url("../img/bgi.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  height: 940px;
+  width: 100vw;
+}
+
+.main-article {
+  color: #123b53;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.link-icon {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+
+/*////   AboutMe   ////*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*////   MySkills   ////*/
+
+.skill-item {
+  margin: 0;
+  width: 25%;
+  padding:40px 3.5vw 30px;
+  background-color: skyblue;
+  text-align: center;
+}
+
+
+.skill-img img {
+ width: 100%;
+ object-fit: cover;
+}
+
+/*////   MyContens   ////*/
+
+/* 
+.primary-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0, auto;
+  text-align: center;
+  background-color: #f4f9ff;
+}
+
+.me {
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
+  grid-template-rows: 75px  1fr;
+  grid-template-columns: 40vw 1fr;
+  background-color: #f4f9ff;
+}
+
+.sub-title {
+  grid-row: 1;
+  grid-column: 1/ span 2;
+  color: #123b53;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  font-weight:lighter;
+}
+
+.picture-me {
+  display: grid;
+
+}
+
+
+.about-me {
+  opacity:0.6;
+  background-color: aliceblue;
+}
+ */
+
+ /* 
+.main-skill {
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f9ff;
+} */
+
+
+
+
+
+
+
+
+
+/*////   footer   ////*/
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  height: 3vh;
+}
+
