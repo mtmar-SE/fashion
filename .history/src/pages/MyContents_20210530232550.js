@@ -43,9 +43,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Fashion}>
-                <img src={Fashion} alt="" />
-              </a>
+              <img src={Fashion} alt="" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 11/21</h4>

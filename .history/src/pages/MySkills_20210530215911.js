@@ -14,7 +14,7 @@ const MySkills = () => {
         <div className="inner-box1">
           <div className="skill-item">
             <h2 className="skill-title">HTML</h2>
-            <p className="skill-desc">skjだdjsfkjdさhふぁおsdふぁsd</p>
+            <p className="skill-desc"></p>
             <h4 className="skill-history">history: 1 year</h4>
           </div>
           <div className="skill-item">

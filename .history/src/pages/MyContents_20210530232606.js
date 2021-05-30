@@ -43,7 +43,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Fashion}>
+              <a>
                 <img src={Fashion} alt="" />
               </a>
             </div>

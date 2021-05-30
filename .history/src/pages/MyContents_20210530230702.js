@@ -3,7 +3,11 @@ import Block from "../accessories/img/block.png";
 import Video from "../accessories/img/VideoSearch.png";
 import Fashion from "../accessories/img/fashion.jpg";
 
-const MyContents = () => {
+const MyContents = (img) => {
+  function imgwin(img) {
+    window.open("img/" + img, "imgwindow", "width=866,height=580");
+  }
+
   return (
     <section className="mycontent">
       <div className="inner">
@@ -11,9 +15,7 @@ const MyContents = () => {
         <div className="inner-box2">
           <div className="content-item">
             <div className="content-img">
-              <a href={Block}>
-                <img src={Block} alt="" />
-              </a>
+              <img src={Block} alt="" onClick="Block" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 8/18</h4>
@@ -27,9 +29,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Video}>
-                <img src={Video} alt="" />
-              </a>
+              <img src={Video} alt="" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 10/18</h4>
@@ -43,9 +43,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Fashion}>
-                <img src={Fashion} alt="" />
-              </a>
+              <img src={Fashion} alt="" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 11/21</h4>

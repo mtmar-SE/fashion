@@ -11,9 +11,7 @@ const MyContents = () => {
         <div className="inner-box2">
           <div className="content-item">
             <div className="content-img">
-              <a href={Block}>
-                <img src={Block} alt="" />
-              </a>
+              <img src={Block} alt="" onClick="https//:github.com" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 8/18</h4>
@@ -27,9 +25,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Video}>
-                <img src={Video} alt="" />
-              </a>
+              <img src={Video} alt="" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 10/18</h4>
@@ -43,9 +39,7 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={Fashion}>
-                <img src={Fashion} alt="" />
-              </a>
+              <img src={Fashion} alt="" />
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 11/21</h4>
