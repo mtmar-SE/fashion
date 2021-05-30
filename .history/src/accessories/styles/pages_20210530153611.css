@@ -1,0 +1,150 @@
+/*////   共通   ////*/
+
+body {
+  color: #809eae;
+  font-size: 16px;
+}
+
+.inner {
+  width: 75%;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+
+.inner-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sub-title {
+   text-align: center;
+}
+
+/*////   header   ////*/
+
+.main-container {
+  background-image: url("../img/bgi.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  height: 940px;
+  width: 100vw;
+}
+
+.main-article {
+  color: #123b53;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.link-icon {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+
+/*////   AboutMe   ////*/
+
+.aboutme {
+   background-color:#f4f9ff;
+}
+
+
+
+
+
+
+
+
+
+
+/*////   MySkills   ////*/
+
+.myskill {
+ background-color:#f4f9ff;
+}
+
+
+
+.skill-item {
+  margin: 0;
+  width: 18%;
+  height: auto;
+  padding:40px 3.5vw 30px;
+  text-align: center;
+  border: 1px solid skyblue;
+   box-shadow: 5px rgba(0,0,0, 0.25);
+  border-radius: 30px;
+  background-color: #fff;
+ 
+}
+.skill-item:nth-child(4),:nth-child(5),:nth-child(6) {
+  margin-top:60px;
+}
+
+
+
+
+/*////   MyContens   ////*/
+
+.mycontent {
+ background-color:#f4f9ff;
+ 
+}
+
+.content-item {
+  margin: 0;
+  width: 22%;
+  height: auto;
+  padding:40px 3.5vw 30px;
+  text-align: center;
+  background-color: #fff;
+   box-shadow:5px 5px 7px rgba(0,0,0, 0.25);
+}
+
+.content-txt {
+  padding: 10px;
+}
+
+.content-desc {
+  margin: 5px 0 0;
+  text-align: left
+}
+
+.content-detail {
+  font-size: 14px;
+}
+
+
+
+.content-img {
+width: 100%;
+height: 200px;
+border: 1px solid gainsboro;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+  @media screen and (max-width: 600px) {
+    .inner-box {
+      flex-direction: column;
+    }
+  }
+
+
+
+/*////   footer   ////*/
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  height: 3vh;
+}
+

@@ -1,0 +1,111 @@
+/*////   共通   ////*/
+
+body {
+  color: #809eae;
+  font-size: 16px;
+}
+
+.inner {
+  width: 75%;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+
+.sub-title {
+   text-align: center;
+}
+
+/*////   header   ////*/
+
+.main-container {
+  background-image: url("../img/bgi.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  height: 940px;
+  width: 100vw;
+}
+
+.main-article {
+  color: #123b53;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.link-icon {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+
+/*////   AboutMe   ////*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*////   MySkills   ////*/
+
+.myskill {
+ background-color:#f4f9ff;
+}
+
+
+
+.skill-item {
+  margin: 0;
+  width: 17%;
+  height: auto;
+  padding:40px 3.5vw 30px;
+  text-align: center;
+  border: 1px solid black ;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.skill-item:nth-child(4),:nth-child(5),:nth-child(6) {
+  margin-top:60px;
+}
+
+
+.inner-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*////   MyContens   ////*/
+
+.mycontent {
+ background-color:#f4f9ff;
+}
+
+.content-item {
+  margin: 0;
+  width: 17%;
+  height: auto;
+  padding:40px 3.5vw 30px;
+  text-align: center;
+}
+
+.content-img {
+  width: 100%;
+}
+
+
+
+/*////   footer   ////*/
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  height: 3vh;
+}
+
