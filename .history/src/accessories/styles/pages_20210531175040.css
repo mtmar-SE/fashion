@@ -12,32 +12,15 @@ body {
   margin: 0 auto;
 }
 
+
+
 .sub-title {
   text-align: center;
   font-family: 'Economica', sans-serif;
-  letter-spacing: 7px;
-  font-size: 35px;
+  letter-spacing: 5px;
+  font-size: 30px;
   color: #07202e;
   opacity: 0.5;
-  position: relative;
-}
-.sub-title::after {
-  position: absolute;
-  content: '';
-  bottom: 0;
-  left: 30%;
-  width: 0;
-  height: 3px;
-  background:#2196F3;
-  transition: all 0.3s ease 0s;
-}
-
-.sub-title:hover {
-  cursor: pointer;
-}
-
-.sub-title:hover::after {
-  width: 40%;
 }
 
 /*////   header   ////*/
@@ -118,7 +101,6 @@ line-height: 7vh;
 letter-spacing: 8px;
 position: relative;
 }
-
 .title-me:before {
   position: absolute;
   content: '';
@@ -140,10 +122,24 @@ position: relative;
   border-bottom: solid 3px #809eae;
 }
 
+
+
+
 .desc-me {
   padding: 0 30px;
   font-size: 18px
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*////   MySkills   ////*/
 
@@ -181,6 +177,9 @@ position: relative;
   margin-top:60px;
 }
 
+
+
+
 /*////   MyContens   ////*/
 
 .mycontent {
@@ -215,6 +214,8 @@ position: relative;
 .content-detail {
   font-size: 14px;
 }
+
+
 
 .content-img {
 width: 100%;

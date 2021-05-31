@@ -21,23 +21,19 @@ body {
   opacity: 0.5;
   position: relative;
 }
-.sub-title::after {
+.hover9::after {
   position: absolute;
   content: '';
   bottom: 0;
-  left: 30%;
+  left: 0;
   width: 0;
-  height: 3px;
-  background:#2196F3;
+  height: 1px;
+  background: #2196F3;
   transition: all 0.3s ease 0s;
 }
 
 .sub-title:hover {
-  cursor: pointer;
-}
 
-.sub-title:hover::after {
-  width: 40%;
 }
 
 /*////   header   ////*/

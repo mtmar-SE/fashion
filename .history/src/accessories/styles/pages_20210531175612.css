@@ -25,19 +25,15 @@ body {
   position: absolute;
   content: '';
   bottom: 0;
-  left: 30%;
+  left: 0;
   width: 0;
-  height: 3px;
-  background:#2196F3;
+  height: 1px;
+  background:  skyblue;
   transition: all 0.3s ease 0s;
 }
 
 .sub-title:hover {
-  cursor: pointer;
-}
-
-.sub-title:hover::after {
-  width: 40%;
+cursor: pointer;
 }
 
 /*////   header   ////*/

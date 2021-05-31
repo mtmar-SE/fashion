@@ -15,29 +15,10 @@ body {
 .sub-title {
   text-align: center;
   font-family: 'Economica', sans-serif;
-  letter-spacing: 7px;
-  font-size: 35px;
+  letter-spacing: 5px;
+  font-size: 40px;
   color: #07202e;
   opacity: 0.5;
-  position: relative;
-}
-.sub-title::after {
-  position: absolute;
-  content: '';
-  bottom: 0;
-  left: 30%;
-  width: 0;
-  height: 3px;
-  background:#2196F3;
-  transition: all 0.3s ease 0s;
-}
-
-.sub-title:hover {
-  cursor: pointer;
-}
-
-.sub-title:hover::after {
-  width: 40%;
 }
 
 /*////   header   ////*/

@@ -16,9 +16,7 @@ const AboutMe = () => {
               <h3 className="title-me">Name</h3>
               <p className="desc-me">motoki hirasawa/平沢 基</p>
               <h3 className="title-me">Pastime</h3>
-              <p className="desc-me">
-                スマブラ/温泉/旅行/料理/スポーツ/アニメ鑑賞
-              </p>
+              <p className="desc-me">スマブラ/温泉/料理/スポーツ/アニメ鑑賞</p>
               <h3 className="title-me">Story</h3>
               <p className="desc-me">
                 私は現在大学3年生です。コロナ禍で就職困難、またAIの発達による職業淘汰で自分は本当に職につけるのだろうか。周りの人と同じ生き方をしていたら、将来はAIに職業を取られる身になると考え、プログラミングを始めました。
