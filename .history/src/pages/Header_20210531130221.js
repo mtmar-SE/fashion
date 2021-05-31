@@ -62,11 +62,10 @@ const Header = () => {
         　Welcome to my website
         <br />
         <br />
-        　このポートフォリオはReactとMaterial-uiを主に使い作成しました。
+        このポートフォリオはReactとMaterial-uiを主に使い作成しました。
         <br />
-        このwebsiteに来てくれた方にオススメなブランドを紹介すると共に
+        ぜひチャットボットをポチポチしてみてください！！！
         <br />
-        ChatBotをポチポチしていただけたら幸いです＾＾
       </p>
     </div>
   );

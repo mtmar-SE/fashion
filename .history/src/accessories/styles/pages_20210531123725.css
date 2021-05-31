@@ -69,18 +69,12 @@ body {
 
 .picture-me {
   background-color: #f4f9ff;
-  width: 50%;
-  position: relative;
+  width: 40%;
 }
 
 .img-me {
-  width: 45%;
+  width: 100%;
   height: auto;
-  border-radius: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .detail-me {
@@ -96,13 +90,10 @@ body {
 font-size: 24px;
 background-color: slateblue;
 border-radius: 5px;
-margin: 0;
-padding: 10px;
 }
 
 .desc-me {
-  padding: 0 30px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 

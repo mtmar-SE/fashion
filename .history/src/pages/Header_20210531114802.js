@@ -43,9 +43,12 @@ const Header = () => {
       </div>
       <h1 className={classes.myName}>Motoki Hirasawa</h1>
       <div className="link-icon">
-        <Link href="https://github.com/mtmar-SE" target="_blank">
+        <Link
+          className="myicon"
+          href="https://github.com/mtmar-SE"
+          target="_blank"
+        >
           <GitHubIcon
-            className="myicon"
             style={{ fontSize: 30, color: "#6C8EA4", marginRight: 20 }}
           />
         </Link>
@@ -64,9 +67,9 @@ const Header = () => {
         <br />
         　このポートフォリオはReactとMaterial-uiを主に使い作成しました。
         <br />
-        このwebsiteに来てくれた方にオススメなブランドを紹介すると共に
+        websiteに来てくれた方にオススメなブランドを紹介すると共に
         <br />
-        ChatBotをポチポチしていただけたら幸いです＾＾
+        みんなと最新の流行、トレンドカラー、オシャレな写真を共有していければいいなと思っています！！
       </p>
     </div>
   );

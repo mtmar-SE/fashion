@@ -74,7 +74,7 @@ body {
 }
 
 .img-me {
-  width: 45%;
+  width: 55%;
   height: auto;
   border-radius: 40px;
   position: absolute;
@@ -97,12 +97,10 @@ font-size: 24px;
 background-color: slateblue;
 border-radius: 5px;
 margin: 0;
-padding: 10px;
 }
 
 .desc-me {
-  padding: 0 30px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 

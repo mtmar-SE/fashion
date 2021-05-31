@@ -63,24 +63,17 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
+  background-color: #fff;
   text-align: center;
 }
 
 .picture-me {
   background-color: #f4f9ff;
   width: 50%;
-  position: relative;
 }
 
 .img-me {
-  width: 45%;
-  height: auto;
-  border-radius: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .detail-me {
@@ -88,21 +81,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 10px;
-  background-color: #fff;
+  border-radius: 20px;
 }
 
 .title-me {
 font-size: 24px;
 background-color: slateblue;
 border-radius: 5px;
-margin: 0;
-padding: 10px;
 }
 
 .desc-me {
-  padding: 0 30px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 

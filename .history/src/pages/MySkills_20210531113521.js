@@ -51,7 +51,7 @@ const MySkills = () => {
           <div className="skill-item">
             <h2 className="skill-title">typescript</h2>
             <p className="skill-desc">
-              今現在、大岡由佳さん著の『りあクト！』シリーズを３冊読破しました。今まで曖昧であったReactとtypescriptに関する歴史、構造を深く理解する事ができました。これからは主にtypescriptを用いてWebアプリケーションを作っていきたいと考えています。
+              テキストが入りますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストが入りますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります
             </p>
             <h4 className="skill-history">history: 1 month</h4>
           </div>
