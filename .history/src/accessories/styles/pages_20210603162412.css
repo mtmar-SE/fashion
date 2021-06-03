@@ -92,7 +92,7 @@ body {
 .img-me {
   width: 45%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 100px;
   position: absolute;
   top: 50%;
   left: 50%;

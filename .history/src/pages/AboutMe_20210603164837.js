@@ -26,7 +26,7 @@ const AboutMe = () => {
                 villageというフロントエンド専門のスクールに通いました。<br></br>
                 そこでHTML、CSS、JavaScript、Reactを学び、簡易的なWebアプリケーション（ホームページ、チャットアプリ、Todoアプリ、Chatbot※当サイトにございます）を作成しました。スクール卒業後は更なる技術力の発展の為、Udemyを活用し10個ほどのWebアプリケーションを開発しました。
                 <br></br>
-                現時点ではtypescriptを学ぶために、りあクト！シリーズを読み、現時点ではtypescriptを用いたWeb開発を検討中です！！
+                現時点ではtypescriptを学ぶために、りあクト！シリーズを読破。現時点ではtypescriptを用いたWeb開発を検討中です！！
               </p>
             </div>
           </div>

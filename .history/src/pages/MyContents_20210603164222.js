@@ -21,7 +21,7 @@ const MyContents = () => {
               <p className="content-detail">
                 私がプログラミングを始めて初めて作った制作物になります。
                 Youtubeを参考にし、模写して制作しました。
-                jsを用いて動的なWebサイトを作る事ができ、得点の加算も取り入れました。
+                jsを用いて動的なWebサイトを作る事ができました。
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const MyContents = () => {
               <h4 className="content-desc">production: Hair Salon</h4>
               <p className="content-detail">
                 美容師の友達の為にホームページを作成しました！ポイントはタブレット、スマートフォンだとヘッダー部分がひっくり返るところです。
-                　カラーも厳選して選んでいるので、エレガントな仕上がりになったと思います！
+                カラーを3色ほどで抑え、美容師らしいエレガントな仕上がりにしています。
               </p>
             </div>
           </div>

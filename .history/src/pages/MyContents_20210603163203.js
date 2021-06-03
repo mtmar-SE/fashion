@@ -1,7 +1,7 @@
 import React from "react";
 import Block from "../accessories/img/block.png";
 import Video from "../accessories/img/VideoSearch.png";
-import Hair from "../accessories/img/Hairsalon.png";
+import Hair from "../accessories/img/fashion.jpg";
 
 const MyContents = () => {
   return (
@@ -21,7 +21,7 @@ const MyContents = () => {
               <p className="content-detail">
                 私がプログラミングを始めて初めて作った制作物になります。
                 Youtubeを参考にし、模写して制作しました。
-                jsを用いて動的なWebサイトを作る事ができ、得点の加算も取り入れました。
+                jsを用いて動的なWebサイトを作る事ができました。
               </p>
             </div>
           </div>
@@ -43,16 +43,15 @@ const MyContents = () => {
           </div>
           <div className="content-item">
             <div className="content-img">
-              <a href={"https://hosei-salon-website.web.app"}>
-                <img src={Hair} alt="" />
+              <a href={Fashion}>
+                <img src={Fashion} alt="" />
               </a>
             </div>
             <div className="content-txt">
               <h4 className="content-desc">date: 2020 11/21</h4>
-              <h4 className="content-desc">production: Hair Salon</h4>
+              <h4 className="content-desc">production: Pig Games</h4>
               <p className="content-detail">
-                美容師の友達の為にホームページを作成しました！ポイントはタブレット、スマートフォンだとヘッダー部分がひっくり返るところです。
-                　カラーも厳選して選んでいるので、エレガントな仕上がりになったと思います！
+                テキストがはいりますてテキストがはいりますテキストがはいりsマス番おdtk停止宮いひいひひひひひ一っヒッヒッヒひ
               </p>
             </div>
           </div>

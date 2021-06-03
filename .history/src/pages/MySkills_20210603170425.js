@@ -43,15 +43,15 @@ const MySkills = () => {
           <div className="skill-item">
             <h2 className="skill-title">React</h2>
             <p className="skill-desc">
-              クイズアプリ、Youtubeの検索アプリ、Chatbot、ECサイト、友人のホームページサイト、Firebaseを用いて認証機能付きのアプリケーションやFireStoreを用いて在庫管理をできる様に開発しました。
-              このポートフォリオもReactを用いて開発しています！
+              クイズアプリ、Youtubeの検索アプリ、Chatbot、ECサイト、友人のホームページサイト、Firebaseを用いて認証機能付きのアプリケーションやFireStoreを用いて在庫管理をできる様にしました。
+              このポートフォリオもReactを使用しています。
             </p>
             <h4 className="skill-history">history: 6 month</h4>
           </div>
           <div className="skill-item">
             <h2 className="skill-title">typescript</h2>
             <p className="skill-desc">
-              今現在、大岡由佳さん著の『りあクト！』シリーズを３冊を読み、今まで曖昧であったReactとtypescriptに関する歴史、構造を深く理解する事ができました。これからは主にtypescriptを用いてWebアプリケーションを作っていきたいと考えています！
+              今現在、大岡由佳さん著の『りあクト！』シリーズを３冊読破しました。今まで曖昧であったReactとtypescriptに関する歴史、構造を深く理解する事ができました。これからは主にtypescriptを用いてWebアプリケーションを作っていきたいと考えています。
             </p>
             <h4 className="skill-history">history: 1 month</h4>
           </div>
